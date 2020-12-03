@@ -19,6 +19,7 @@ const Linegraph = () => {
         setGraphData(data)
     }
 
+
     useEffect(() => {
         createMockData()
     }, []);

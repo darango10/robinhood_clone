@@ -1,4 +1,4 @@
-.row{
+.row {
     display: flex;
     justify-content: space-between;
     height: 60px;
@@ -7,36 +7,42 @@
     cursor: pointer;
 }
 
-.row:hover{
+.row:hover {
     background-color: #31363A;
 }
 
-.row__intro{
+.row__intro {
     /*font-size: 9px;*/
     /*font-weight: bold;*/
     padding-bottom: 2px;
     text-align: left;
+    flex: 0.4;
 }
 
-.row__intro h1{
+.row__intro h1 {
     font-size: 16px;
     font-weight: bold;
 }
 
-.row__intro p{
+.row__intro p {
     font-size: 12px;
 }
 
-.row__numbers{
+.row__chart {
+    flex: 0.3;
+}
+
+.row__numbers {
     text-align: right;
     font-size: 13px;
     font-weight: bold;
+    flex: 0.3;
 }
 
-.row__price{
+.row__price {
     padding-bottom: 4px;
 }
 
-.row__percentage{
+.row__percentage {
     color: #5AC53B;
 }
